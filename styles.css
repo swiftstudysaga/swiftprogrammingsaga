@@ -1,0 +1,11 @@
+pre {
+    background-color: #333; /* Dark background color */
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f4f4f4; /* Light text color for contrast */
+}

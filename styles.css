@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
 pre {
     background-color: #333; /* Dark background color */
     padding: 10px;
@@ -6,6 +8,8 @@ pre {
 }
 
 code {
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #333; /* Dark background color */
+    overflow-x: auto;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
     color: #f4f4f4; /* Light text color for contrast */
 }

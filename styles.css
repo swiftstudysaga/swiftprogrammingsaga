@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
 
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace; /* Developer-friendly font */
+    line-height: 1.6; /* Improve readability */
+    margin: 0;
+    padding: 0;
+}
 pre {
     background-color: #333; /* Dark background color */
     padding: 10px;
@@ -12,4 +20,25 @@ code {
     overflow-x: auto;
     font-family: 'Fira Code', 'Courier New', Courier, monospace;
     color: #f4f4f4; /* Light text color for contrast */
+}
+
+.language-c {
+    background-color: #333; /* Dark background color */
+    overflow-x: auto;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    color: #00eeee; /* Light text color for contrast */
+}
+
+#formula {
+    background-color: #333; /* Dark background color */
+    overflow-x: auto;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    color: #db0505;
+}
+
+#syntex {
+    background-color: #333; /* Dark background color */
+    overflow-x: auto;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    color: #00ff00;
 }

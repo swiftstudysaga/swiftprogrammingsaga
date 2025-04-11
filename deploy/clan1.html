@@ -1,49 +1,70 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Calculate area of circle</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="https://swiftstudysaga.github.io/swiftprogrammingsaga/styles.css">
-    </head>
-    <body style="background-color: #000000; color: #ffffff">
-        <h1>C Program to calculate area of circle</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Area of a Circle</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>C Program: Calculate Area of a Circle</h1>
         <hr>
-        <div>
-            <h2>Explaination</h2>
-            <p>This program calculates the area of a circle using the formula <strong>area = π * radius * radius</strong>. The user is prompted to enter the radius, and the program computes the area using the defined constant for π (3.14).</p>
-            <p>The program uses the <code>scanf</code> function to read the radius from the user and the <code>printf</code> function to display the calculated area.</p>
-            <p>Note: The program uses the <code>float</code> data type for the area to allow for decimal values, and the result is formatted to two decimal places using <code>%.2f</code>.</p>
-        </div>
-        <div>
+    </header>
+    <main>
+        <section>
+            <h2>Explanation</h2>
+            <p>This program calculates the area of a circle using the formula:</p>
+            <blockquote>
+                <strong>area = π × radius × radius</strong>
+            </blockquote>
+            <p>The user is prompted to enter the radius, and the program computes the area using a predefined constant for π (<code>3.14</code>).</p>
+            <ul>
+                <li>The <code>scanf</code> function is used to read the radius from the user.</li>
+                <li>The <code>printf</code> function displays the calculated area.</li>
+                <li>The <code>float</code> data type is used for the area to allow decimal values.</li>
+                <li>The result is formatted to two decimal places using <code>%.2f</code>.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Code Example</h2>
             <pre>
-            <code class="language-c">
-      1 | #include &lt;stdio.h&gt;
-      2 | #define PI 3.14
-      3 |
-      4 | void main() {
-      5 |     int radius;
-      6 |     float area;
-      7 |
-      8 |     printf("Enter the radius of the circle: ");
-      9 |     scanf("%d", &radius);
-     10 |
-     11 |     area = PI * radius * radius;
-     12 |     printf("The calculated area of the circle is: %.2f\n", area);
-     13 | }
-            </code>
+<code class="language-c">
+#include &lt;stdio.h&gt;
+#define PI 3.14
+
+void main() {
+    int radius;
+    float area;
+
+    printf("Enter the radius of the circle: ");
+    scanf("%d", &radius);
+
+    area = PI * radius * radius;
+    printf("The calculated area of the circle is: %.2f\n", area);
+}
+</code>
             </pre>
-        </div>
-        <div>
-            
-            <p>To compile and run the program, use the following commands in your terminal:</p>
+        </section>
+        <section>
+            <h2>How to Compile and Run</h2>
+            <p>Follow these steps to compile and run the program:</p>
+            <ol>
+                <li>Open your terminal.</li>
+                <li>Navigate to the directory containing your C file.</li>
+                <li>Run the following commands:</li>
+            </ol>
             <pre>
-                <code class="language-bash">
+<code class="language-bash">
 gcc -o circle_area circle_area.c
 ./circle_area
-                </code>
+</code>
             </pre>
-            <p>Make sure to replace <code>circle_area.c</code> with the actual filename of your C source code.</p>
-        </div>
-    </body>
+            <p><strong>Note:</strong> Replace <code>circle_area.c</code> with the actual filename of your C source code.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Swift Programming Saga. All rights reserved.</p>
+    </footer>
+</body>
 </html>
